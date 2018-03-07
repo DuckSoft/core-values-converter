@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Core Value Converter</title>
+    <script language="JavaScript" src="assets/lodash_part.js"></script>
+    <script language="JavaScript" src="assets/core-values-converter.js"></script>
+    <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+    <header>
+        <h2>Core Value Converter</h2>
+        <small>in recognition of modification to constitution</small>
+    </header>
+
+    <main>
+        <div class="panel-control">
+            <button onclick="go_encode()">encode</button>
+            <button onclick="go_decode()">decode</button>
+        </div>
+
+        <div class="panel-text">
+            <div class="panel-col-l">
+                <textarea id="txtenc" placeholder="Something to encode..." rows="8"></textarea>
+            </div>
+
+            <div class="panel-col-r">
+                <textarea id="txtdec" placeholder="Something to decode..." rows="8"></textarea>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <small>Copyleft 2018 <a href="https://github.com/DuckSoft/">DuckSoft</a>. NO WARRANTY!</small>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    font-family: "Noto Sans Mono", monospace;
+    margin: 0.5em;
+    border: 1px solid #000;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    background-color: hsla(254, 100%, 93%, 0.6);
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #000;
+    background-color: hsla(254, 100%, 95%, 0.6);
+}
+
+.panel-text {
+    overflow: hidden;
+}
+
+.panel-control {
+    text-align: center;
+    background-color: #eee;
+}
+
+textarea {
+    width: 100%;
+    overflow: auto;
+    resize: vertical;
+    border: none;
+}
+
+.panel-col-l {
+    width: 45%;
+    float: left;
+}
+
+.panel-col-r {
+    width: 45%;
+    float: right;
+}
